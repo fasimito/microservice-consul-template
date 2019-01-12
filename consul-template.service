@@ -1,5 +1,5 @@
 #!/bin/sh
 
-exec consul-template \
+exec consul-template \oad"s/nginx.conf
      -consul-addr=consul:8500 \
-     -template "/etc/consul-template:/etc/nginx/conf.d/app.conf:nginx -s reload"s/nginx.conf
+     -template "/etc/consul-template:/etc/nginx/conf.d/app.conf:nginx -s rel
