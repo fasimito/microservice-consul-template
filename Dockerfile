@@ -12,6 +12,6 @@ ADD consul-template.service /etc/service/consul-template/run
 RUN chmod a+x /etc/service/consul-template/run
 
 RUN rm -v /etc/nginx/conf.d/*
-ADD nginx.conf /etc/consul-templates/nginx.conf
+ADD nginx.conf.ctmpl /etc/service/consul-templates/nginx.conf.ctmpl
 
 CMD ["/usr/bin/runsvdir", "/etc/service"]
