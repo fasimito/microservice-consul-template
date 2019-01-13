@@ -6,4 +6,4 @@ This project is mainly introduce:
 4. Make a clearly introduction of consul-template.
 
 ## Project Architecture 
-![image](https://github.com/fasimito/microservice-consul-template/images/arche.jpg)
+![image](https://github.com/fasimito/microservice-consul-template/blob/master/images/arche.jpg)
